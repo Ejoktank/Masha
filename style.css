@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 200px;
+    background-color: rgb(231, 185, 57);
+    margin: 0;
+
+}
+
+header>h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+main {
+    margin: 0;
+    text-align: center;
+    background-color: violet;
+    margin: 0;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main>h2 {
+    margin: 0;
+}
