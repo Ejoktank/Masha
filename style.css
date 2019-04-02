@@ -1,19 +1,41 @@
+.container {
+    width: 1000px;
+    
+}
+
 body {
     margin: 0;
+    
+}
+
+.bgHeader {
+    height: 200px;
+    background-color: rgb(231, 185, 57);
+    display: flex;
+    justify-content: center;
 }
 
 header {
     height: 200px;
-    background-color: rgb(231, 185, 57);
     margin: 0;
 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
 }
 
 header>h1 {
     margin: 0;
     text-align: center;
-    padding-top: 20px;
 
+}
+
+.bgMain {
+    height: 400px;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
 }
 
 main {
@@ -24,9 +46,20 @@ main {
     height: 400px;
 
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
 main>h2 {
     margin: 0;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    background-color: gray;
 }
